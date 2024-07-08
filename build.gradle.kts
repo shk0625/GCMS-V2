@@ -49,6 +49,12 @@ dependencies {
 	implementation("com.google.firebase:firebase-admin:7.3.0")
 	implementation("com.squareup.okhttp3:okhttp:4.10.0")
 	implementation("kr.dogfoot:hwplib:1.1.1")
+	// aws container lambda
+	implementation("org.springframework.cloud:spring-cloud-function-adapter-aws:3.2.8")
+	implementation("com.amazonaws:aws-lambda-java-core:1.2.2")
+	implementation("com.amazonaws:aws-lambda-java-events:3.11.0")
+	implementation("org.springframework.cloud:spring-cloud-starter-function-web:3.2.8")
+
 }
 
 tasks.withType<KotlinCompile> {

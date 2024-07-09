@@ -40,3 +40,4 @@ out/
 /src/main/resources/application-dev.yml
 /src/main/resources/msg-gcms-firebase-adminsdk-4bh18-0e0624833f.json
 .env
+application.yml
